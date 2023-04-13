@@ -1,13 +1,8 @@
-#+ summary: This is the summary of my query/operation.
-
-PREFIX dbo: <http://dbpedia.org/ontology/>
-PREFIX dbp: <http://dbpedia.org/property/>
-PREFIX schema: <http://schema.org/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-
-SELECT ?band ?album ?genre WHERE {
-  ?band rdf:type dbo:Band .
-  ?album rdf:type schema:MusicAlbum .
-  ?band dbo:genre ?genre .
-  ?album dbp:artist ?band .
-} LIMIT 100
+title: Example API generated via URL
+description: 
+contact:
+ name: Albert Meronyo Penyuela
+ url: https://www.albertmeronyo.org
+license: https://github.com/CLARIAH/grlc-queries/blob/master/LICENSE
+queries:
+ -https://raw.githubusercontent.com/CLARIAH/grlc-queries/master/summary.rq
