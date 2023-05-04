@@ -5,6 +5,6 @@ contact:
   url: https://www.albertmeronyo.org
 license: https://github.com/CLARIAH/grlc-queries/blob/master/LICENSE
 queries:
-    - https://raw.githubusercontent.com/CLARIAH/grlc-queries/master/summary.rq
-    - https://raw.githubusercontent.com/CLARIAH/grlc-queries/master/method.rq
-    - https://raw.githubusercontent.com/CLARIAH/grlc-queries/master/transform.rq
+  - https://raw.githubusercontent.com/CLARIAH/grlc-queries/master/summary.rq
+  - https://raw.githubusercontent.com/CLARIAH/grlc-queries/master/method.rq
+  - https://raw.githubusercontent.com/CLARIAH/grlc-queries/master/transform.rq
